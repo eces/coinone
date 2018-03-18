@@ -5,7 +5,7 @@ CLI for coinone.co.kr
 
 - 프로그램목적: 사무실에서도 눈치보이지 않게 CLI로 거래할수있고, 분할매수를 돕습니다.
 - 프로그램설명: 하단의 지원기능에 나열되어있습니다. Coinone v2 API 이용. 
-    - 프론트 UI부분은 원래 만든 서비스(https://coin.soran.io)가 있습니다.
+    - 프론트 UI부분은 원래 만든 서비스(https://coin.soran.io) 가 있습니다.
     - 백엔드 부분을 포함하려고 했으나 (https://github.com/eces/coinone/issues/1) 
     - 요구한 부분(API 이용)에 더 충족하는 예제를 만들고자 CLI로 결정했습니다.
 
