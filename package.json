@@ -3,15 +3,22 @@
   "version": "1.0.0",
   "description": "CLI for coinone.co.kr",
   "main": "index.js",
+  "bin": {
+    "co": "bin/co"
+  },
+  "files": [
+    "package.json",
+    "bin/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/eces/coinone.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "Apache-2.0",
   "bugs": {
     "url": "https://github.com/eces/coinone/issues"
   },
