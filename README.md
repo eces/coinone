@@ -9,6 +9,7 @@ CLI for coinone.co.kr
     - 백엔드 부분을 포함하려고 했으나 (https://github.com/eces/coinone/issues/1) 
     - 요구한 부분(API 이용)에 더 충족하는 예제를 만들고자 CLI로 결정했습니다.
     - 일부 체결알림은 native notification 이용가능합니다. (https://github.com/mikaelbr/node-notifier)
+    - 스크린샷 미리보기 (https://github.com/eces/coinone/issues/2)
 
 ### Usage
 
