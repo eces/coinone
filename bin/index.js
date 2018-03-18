@@ -5,9 +5,12 @@ updateNotifier({ pkg }).notify();
 const program = require('commander');
 
 program
-    .version(pkg.version);
+  .version(pkg.version);
 
 program
-    .command('login', '로그인합니다.')
+  .command('login', '로그인합니다.')
+
+program
+  .command('whoami', '로그인된 계정을 확인합니다.')
 
 program.parse(process.argv);
