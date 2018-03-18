@@ -28,5 +28,8 @@
     "commander": "^2.15.0",
     "debugs": "^1.0.11",
     "update-notifier": "^2.3.0"
-  }
+  },
+  "debugs": [
+    "coinone-cli*"
+  ]
 }
