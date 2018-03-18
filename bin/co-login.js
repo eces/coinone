@@ -1,4 +1,4 @@
-require('debugs/init')
+// require('debugs/init')
 const chalk = require('chalk')
 const path = require('path')
 const debug = require('debug')('coinone-cli')

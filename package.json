@@ -1,6 +1,6 @@
 {
-  "name": "coinone-cli",
-  "version": "1.0.0",
+  "name": "coinone-cli-temp",
+  "version": "1.0.1",
   "description": "CLI for coinone.co.kr",
   "main": "index.js",
   "bin": {
