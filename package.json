@@ -22,5 +22,11 @@
   "bugs": {
     "url": "https://github.com/eces/coinone/issues"
   },
-  "homepage": "https://github.com/eces/coinone#readme"
+  "homepage": "https://github.com/eces/coinone#readme",
+  "dependencies": {
+    "chalk": "^2.3.2",
+    "commander": "^2.15.0",
+    "debugs": "^1.0.11",
+    "update-notifier": "^2.3.0"
+  }
 }
