@@ -14,6 +14,7 @@ class Coinone {
     this.secret_key_uppercase = String(this.config.secret_key).toUpperCase()
     this.request = request.defaults({
       timeout: 5000,
+      json: true,
     })
   }
 
@@ -60,7 +61,6 @@ class Coinone {
         'X-COINONE-SIGNATURE': payload.signature,
       },
       body: payload.encoded,
-      json: true,
     })
   }
   
@@ -76,8 +76,26 @@ class Coinone {
         'X-COINONE-SIGNATURE': payload.signature,
       },
       body: payload.encoded,
-      json: true,
     })
+  }
+  
+  async limit_buy(opt) {
+    const payload = this._payload(opt)
+    
+    return this.request({
+      url: this.endpoint + '/v2/order/limit_buy',
+      method: 'post',
+      headers: {
+        'Content-Type': 'application/json',
+        'X-COINONE-PAYLOAD': payload.encoded,
+        'X-COINONE-SIGNATURE': payload.signature,
+      },
+      body: payload.encoded,
+    })
+  }
+
+  get_message_from_code(code) {
+    return require('./coinone-sdk-codes')[code] || '미지정 오류'
   }
 }
 module.exports = Coinone;
