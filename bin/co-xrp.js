@@ -117,7 +117,7 @@ async function main() {
       return
     }
     
-    const Table = require('cli-table2')
+    const Table = require('cli-table3')
     const table = new Table({
       head: [chalk.white.bold('price'), chalk.white.bold('qty')],
       colWidths: [10, 20],
